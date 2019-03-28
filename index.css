@@ -14,12 +14,28 @@ body {
 	border: 3px ridge #F55747;
 	background-image: linear-gradient(to right, rgb(155,220,149), rgb(121,220,99));
 }
+.content-head {
+	font-size: 1.4em;
+	text-align: center;
+	margin: 20px 0 20px 0;
+	color: #FC007A;
+	text-shadow: 2px 1px 5px #CCC;
+	font-family: 'Merriweather', serif;
+}
 .sidebar {
 	height: 300px;
 	width: 13%;
 	margin: 0;
 	border: 3px ridge #F55747;
 	background-image: linear-gradient(to right, rgb(155,220,149), rgb(121,220,99));
+}
+.side-heading {
+	font-size: 1em;
+	text-align: center;
+	margin: 20px 0;
+	color: #FC007A;
+	text-shadow: 2px 1px 5px #CCC;
+	font-family: 'Merriweather', serif;
 }
 p {
 	margin: 15px 0;
@@ -108,6 +124,10 @@ p {
 	border-radius: 10%;
 	font-size: 30px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	color: #000;
 	padding: 20px 0 0 0;
 }
@@ -124,13 +144,17 @@ p {
 .enthusiasts {
 	background-color: #63E8F0;
 }
-.content-head {
-	font-size: 1.4em;
-	text-align: center;
-	margin: 20px 0 20px 0;
-	color: #FC007A;
-	text-shadow: 2px 1px 5px #CCC;
-	font-family: 'Merriweather', serif;
+.know-more {
+	display: block;
+	text-decoration: none;
+	width: 260px;
+	padding: 16px 0;
+	border-radius: 20px;
+	background-color: #3F59D1;
+	font-size: 22px;
+	margin: 15px 0;
+	color: #FFF;
+
 }
 .some-text {
 	color: red;
