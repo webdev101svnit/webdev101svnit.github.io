@@ -8,12 +8,18 @@ body {
 	font-size: 16px;
 }
 .content {
-	width: 70%;
-	margin: 10px 0 10px 2%;
+	width: 85%;
+	margin: 0;
 	padding: 10px 30px;
-	float: left;
-	border: 6px ridge #F55747;
-	background-color: #FFF;
+	border: 3px ridge #F55747;
+	background-image: linear-gradient(to right, rgb(155,220,149), rgb(121,220,99));
+}
+.sidebar {
+	height: 300px;
+	width: 13%;
+	margin: 0;
+	border: 3px ridge #F55747;
+	background-image: linear-gradient(to right, rgb(155,220,149), rgb(121,220,99));
 }
 p {
 	margin: 15px 0;
@@ -22,32 +28,42 @@ p {
 	font-family: 'Libre Baskerville', serif;
 }
 .page {
-	margin: 0px auto;
+	margin: 10px auto;
 	width: 80%;
-	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
 }
 .container {
 	background-color: #FFFFFF;
-	overflow: hidden;
+	background-image: url('pics/trianglify.png');
+	background-repeat: no-repeat;
+	/*background-size: 100% 100%;*/
+	display: flex;
+	justify-content: center;
 	width: 100%;
 }
 .heading {
 	padding: 10px 30px;
 	margin: 0px 0px;
 	background-color: #FFF;
+	background-image: url('pics/trianglify.png');
 }
 .menu {
 	height: 60px;
 	padding: 10px 5px;
-	overflow: hidden;
 	background-color: #632E5C;
+	display: flex;
+	justify-content: space-between;
 }
 .menu-logo {
 	display: block;
 	height: 40px;
 	margin: 0;
-	float: left;
 	background-color: #632E5C;
+}
+.link-container {
+	display: flex;
+	justify-content: flex-end;
 }
 .options {
 	display: block;
@@ -58,46 +74,40 @@ p {
 	text-decoration: none;
 	padding: 9px 0;
 	width: 90px;
-	margin: 0 5px;
-	float: right;
+	margin: 0;
 	background-color: #632E5C;
 }
 .options:hover {
 	color: #FFF;
 }
-.sidebar {
-	height: 300px;
-	width: 13%;
-	margin: 10px 0;
-	float: left;
-	border: 5px ridge #F55747;
-	background-color: #FFF;
-}
-.sidebar2 {
-	height: 300px;
-	width: 13%;
-	margin: 10px 0;
-	float: right;
-	border: 5px ridge #F55747;
-	background-color: #FFF;
-}
-
 .footer {
 	height: 60px;
-	background-color: orange;
-	clear: both;
+	background-color: #8C61A3;
 }
 .grid {
 	height: 500px;
 	background-color: #B9FFFE;
-	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url('pics/gridback.png');
+	/*background-size: 100% 100%;*/
 }
 .column {
-	float: left;
-	width: 31%;
-	margin: 20px 1.15%;
-	height: 460px;
+	width: 350px;
+	margin: 0px;
+	height: 350px;
 	background-color: #FFF;
+	border-radius: 10%;
+}
+.startups {
+	background-color: #DC6AA0;
+}
+.investors {
+	background-color: #FCE036;
+}
+.enthusiasts {
+	background-color: #63E8F0;
 }
 .heading h1 {
 	color: blue;
@@ -111,10 +121,6 @@ p {
 	text-align: center;
 	margin: 20px 0 20px 0;
 	font-family: 'Merriweather', serif;
-}
-.apni-list {
-	list-style-type: square;
-	margin: 0 0 10px 0;
 }
 .some-text {
 	color: red;
@@ -161,9 +167,10 @@ p {
 }
 .pika {
 	display: block;
-	height: 370px;
+	height: 450px;
 	margin: 30px auto;
 	width: 75%;
+	border: 3px ridge #F55747;
 }
 .logo {
   margin: 20px auto;
@@ -173,8 +180,6 @@ p {
 }
 .profile-pic {
 	width: 130px;
-	float: left;
 	margin: 15px 10px 4px 0;
+	float: left;
 }
-
-
