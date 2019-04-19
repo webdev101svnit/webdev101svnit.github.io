@@ -88,6 +88,8 @@ body {
 }
 .form-container {
 	margin: 40px 0;
+	font-size: 1.0em;
+	font-family: 'Merriweather', serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -95,7 +97,9 @@ body {
 	height: 400px;
 }
 .form-input {
-	width: 35%;
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
 }
 .buttons {
 	width: 150px;
@@ -118,4 +122,15 @@ body {
 .footer {
 	height: 60px;
 	background-color: #8C61A3;
+}
+
+input:valid {
+ 	border: solid 1px green;
+}
+input:invalid {
+ 	border: solid 1px red;
+}
+
+.small {
+	font-size: 0.8em;
 }

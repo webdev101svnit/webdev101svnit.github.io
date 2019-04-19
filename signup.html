@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<title>Sign Up</title>
 	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
 <body>
 	<div class='heading' id="header">
@@ -24,36 +26,36 @@
 				<div>
 					<form class="form-container" action="" method="GET">
 						<div class="form-input">
-							<label for="username">First Name:</label>
-							<input id="username" type="text" name="firstname" placeholder="First Name" required>
+							<label for="username">First Name:&nbsp&nbsp</label>
+							<input id="username" type="text" name="firstname" placeholder="First Name" maxlength="25" size="30" required>
 						</div>
 						<div class="form-input">
-							<label for="lastname">Last Name:</label>
-							<input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+							<label for="lastname">Last Name:&nbsp&nbsp</label>
+							<input id="lastname" type="text" name="lastname" placeholder="Last Name" maxlength="25" size="30" required>
 						</div>
 						<div class="form-input">
-							<label for="email">Email:</label>
-							<input id="email" type="email" name="email" placeholder="Email" required>
+							<label for="email">Email:&nbsp&nbsp</label>
+							<input id="email" type="email" name="email" placeholder="Email" maxlength="30" size="30" required>
 						</div>
 						<div class="form-input">
-							<label for="password">Password:</label>
-							<input id="password" type="password" name="password" placeholder="Password" required>
+							<label for="password">Password:&nbsp&nbsp</label>
+							<input id="password" type="password" name="password" placeholder="Password" maxlength="15" minlength="8" size="25" required>
 						</div>
 						<div class="form-input">
-							<label for="date">Birthday:</label>
+							<label for="date">Birthday:&nbsp&nbsp</label>
 							<input id="date" type="date" name="birthdate" required>
 						</div>
 						<div class="form-input">
-							Gender:
+							Gender:&nbsp&nbsp
 							<input id="male" type="radio" name="gender" required>
-							<label for="male">Male</label>
+							<label for="male">&nbspMale&nbsp&nbsp</label>
 							<input id="female" type="radio" name="gender" required>
-							<label for="female">Female</label>
+							<label for="female">&nbspFemale&nbsp&nbsp</label>
 							<input id="other" type="radio" name="gender" required>
-							<label for="other">Other</label>
+							<label for="other">&nbspOther&nbsp&nbsp</label>
 						</div>
 						<div class="form-input">
-							<label for="state">State:</label>
+							<label for="state">State:&nbsp&nbsp</label>
 							<select id="state" name="place" required>
 								<option value="">--Please choose an option--</option>
 								<option value="1">Andhra Pradesh</option>
@@ -89,15 +91,15 @@
 						</div>
 						<div class="form-input">
 							<input id="startup" type="radio" name="usertype" value="startup" required>
-							<label for="startup">Startup</label>
+							<label for="startup">&nbspStartup&nbsp&nbsp</label>
 							<input id="investor" type="radio" name="usertype" value="investor" required>
-							<label for="investor">Investor</label>
+							<label for="investor">&nbspInvestor&nbsp&nbsp</label>
 							<input id="enthusiast" type="radio" name="usertype" value="enthusiast" required>
-							<label for="enthusiast">Enthusiast</label>
+							<label for="enthusiast">&nbspEnthusiast&nbsp&nbsp</label>
 						</div>
-						<div class="form-input">
+						<div class="form-input small">
 							<input id="tandc" type="checkbox" name="tandc" value="agreed" required>
-							<label for="tandc">I agree to the terms and conditions.</label>
+							<label for="tandc">&nbsp&nbspI agree to the terms and conditions.</label>
 						</div>
 						<div class="form-input">
 							<button class="buttons">Register</button>
