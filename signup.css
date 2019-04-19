@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #FFF;
+	font-size: 16px;
+}
+.heading {
+	padding: 10px 30px;
+	margin: 0px 0px;
+	background-color: #FFF;
+	background-image: url('pics/trianglify.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.heading h1 {
+	color: blue;
+	padding: 0 0 10px 0;
+	font-size: 2.4em;
+	text-shadow: 2px 1px 5px grey;
+	font-weight: normal;
+}
+.menu {
+	height: 60px;
+	padding: 10px 5px;
+	background-color: #632E5C;
+	display: flex;
+	justify-content: space-between;
+}
+.link-container {
+	display: flex;
+	justify-content: flex-end;
+}
+.menu-logo {
+	display: block;
+	height: 40px;
+	margin: 0;
+	background-color: #632E5C;
+}
+.options {
+	display: block;
+	height: 40px;
+	font-size: 1.3em;
+	color: #EB93D0;
+	text-align: center;
+	text-decoration: none;
+	padding: 9px 0;
+	width: 90px;
+	margin: 0;
+	background-color: #632E5C;
+}
+.options:hover {
+	color: #FFF;
+}
+.container {
+	background-color: #FFFFFF;
+	background-image: url('pics/trianglify.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.page {
+	margin: 10px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+.content {
+	width: 85%;
+	margin: 0;
+	padding: 10px 30px;
+	border: 3px ridge #F55747;
+	background-image: linear-gradient(to right, rgb(155,220,149), rgb(121,220,99));
+}
+.content-head {
+	font-size: 1.7em;
+	text-align: center;
+	margin: 20px 0 20px 0;
+	color: #FC007A;
+	text-shadow: 2px 1px 5px #CCC;
+	font-family: 'Merriweather', serif;
+}
+.form-container {
+	margin: 40px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+}
+.form-input {
+	width: 35%;
+}

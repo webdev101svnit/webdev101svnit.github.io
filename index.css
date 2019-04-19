@@ -53,7 +53,7 @@ p {
 	background-color: #FFFFFF;
 	background-image: url('pics/trianglify.png');
 	background-repeat: no-repeat;
-	/*background-size: 100% 100%;*/
+	background-size: 100%;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -63,6 +63,7 @@ p {
 	margin: 0px 0px;
 	background-color: #FFF;
 	background-image: url('pics/trianglify.png');
+	background-size: 100%;
 }
 .heading h1 {
 	color: blue;
